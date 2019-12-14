@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Tabelas em HTML - Introdução</title>
+<meta charset="utf-8">
+</head>
+<body>
+<form name= "cadastro" method =get action= "script.php">
+<fieldset> 
+<legend> linguagem de programacao: </legend>
+<input type="checkbox" name "linguagens" id = "ling" value ="c#">
+<label for ="ling01"> c#  </label><br>
+<input type="checkbox" name "linguagens" id = "ling" value ="javascript">
+<label for ="ling 02"> javascript </label><br>
+</fieldset>
+<br>
+<input type="submit" value="enviar"/>
+<input type="reset"  value="apagar"/>
+</form>
+<br>
+</body>
+</html>
